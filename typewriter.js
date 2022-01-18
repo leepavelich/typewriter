@@ -7,9 +7,7 @@ const typewriter = (sentence, typeDelay) => {
     delay += typeDelay;
   }
   
-  setTimeout(() => {
-    console.log();
-  }, delay);
+  setTimeout(() => console.log(), delay);
 };
 
 const exampleSentence = "hello there from lighthouse labs";
