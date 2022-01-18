@@ -4,7 +4,6 @@ const typewriter = (sentence, typeDelay) => {
     setTimeout(() => process.stdout.write(char), delay);
     delay += typeDelay;
   }
-  
   setTimeout(() => console.log(), delay);
 };
 
